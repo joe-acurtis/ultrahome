@@ -72,11 +72,14 @@ light:
         type: rgbw
         name: Living Room 2
       - number: 4
-        type: rgbw
+        type: rgbw 
         name: 4
 
 
 emulated_hue:
 
-
-
+switch:
+  - platform: broadlink
+    host: 192.168.0.19
+    mac: 34:ea:34:e7:f9:68
+    friendly_name: ultraremote
